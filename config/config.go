@@ -5,10 +5,10 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/hungkola/crypt/backend"
-	"github.com/hungkola/crypt/backend/consul"
-	"github.com/hungkola/crypt/backend/etcd"
-	"github.com/hungkola/crypt/encoding/secconf"
+	"github.com/hungkoala/crypt/backend"
+	"github.com/hungkoala/crypt/backend/consul"
+	"github.com/hungkoala/crypt/backend/etcd"
+	"github.com/hungkoala/crypt/encoding/secconf"
 )
 
 type KVPair struct {
